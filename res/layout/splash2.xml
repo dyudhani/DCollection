@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="#3498db">
+    <TextView android:id="@+id/textView1" android:layout_centerInParent="true" android:background="@drawable/logo" android:layout_width="200dp" android:layout_height="200dp"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:textSize="100dp" android:layout_height="50dp" android:id="@+id/load" android:background="@drawable/loading" android:layout_width="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:text="Memuat data....." android:layout_width="match_parent" android:gravity="center" android:textColor="#ffffff" android:layout_marginBottom="20dp" android:textSize="25dp"></TextView>
+    </LinearLayout>
+</RelativeLayout>
+

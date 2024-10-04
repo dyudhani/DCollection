@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:gravity="center" android:background="#3498db" android:layout_height="200dp">
+        <TextView android:id="@+id/textView1" android:background="@drawable/logo2" android:layout_height="150dp" android:layout_width="250dp" android:gravity="center"></TextView>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="match_parent" android:background="#ffffff">
+        <LinearLayout android:id="@+id/linearLayout7" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent" android:background="#ffffff">
+            <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout8" android:layout_width="match_parent" android:layout_marginTop="35dp" android:layout_marginBottom="35dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="30dp">
+                    <TextView android:layout_height="wrap_content" android:text="Email" android:textColor="#222" android:layout_width="wrap_content" android:id="@+id/textView2" android:textSize="25dp"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout3" android:layout_width="match_parent" android:layout_marginTop="15dp">
+                    <EditText android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:background="#ffffff" android:layout_width="match_parent" android:hint="   xx@gmail.com" android:inputType="textEmailAddress" android:textSize="25dp" android:id="@+id/lemail"></EditText>
+                    <TextView android:layout_height="4dp" android:text="TextView" android:layout_width="match_parent" android:id="@+id/textView3" android:background="#3498db"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:layout_margin="10dp" android:id="@+id/LinearLayout01" android:layout_width="match_parent">
+                <LinearLayout android:id="@+id/LinearLayout03" android:layout_width="match_parent" android:layout_height="30dp">
+                    <TextView android:layout_height="wrap_content" android:textColor="#222" android:layout_width="wrap_content" android:id="@+id/TextView01" android:text="Password" android:textSize="25dp"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/LinearLayout02" android:layout_width="match_parent" android:layout_marginTop="15dp">
+                    <EditText android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:background="#ffffff" android:layout_width="match_parent" android:hint="000000" android:gravity="center" android:maxLength="6" android:textSize="25dp" android:id="@+id/lpassword" android:inputType="textPassword"></EditText>
+                    <TextView android:layout_height="4dp" android:text="TextView" android:layout_width="match_parent" android:id="@+id/TextView02" android:background="#3498db"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="match_parent" android:layout_marginTop="120dp">
+                <Button android:layout_height="50dp" android:layout_margin="5dp" android:background="@drawable/login" android:layout_width="match_parent" android:text="Masuk" android:id="@+id/masuk" android:textSize="20dp" android:textColor="#ffffff"></Button>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout6" android:layout_width="match_parent" android:layout_margin="10dp" android:layout_marginTop="20dp">
+                <TextView android:layout_height="wrap_content" android:text="Belum punya akun ?" android:layout_width="wrap_content" android:id="@+id/textView6" android:textColor="#444" android:textSize="15dp" android:layout_marginBottom="5dp"></TextView>
+                <TextView android:layout_height="wrap_content" android:text="Daftar sekarang" android:layout_width="wrap_content" android:textColor="#3498db" android:textSize="15dp" android:id="@+id/ldaftar"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

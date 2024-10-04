@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f1e3">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="horizontal" android:background="@drawable/wrapheader" android:layout_height="55dp">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout6" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:gravity="center">
+            <TextView android:background="@drawable/menu" android:id="@+id/menu" android:gravity="center" android:layout_height="40dp" android:layout_width="40dp"></TextView>
+        </LinearLayout>
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:textColor="#3498db" android:layout_marginLeft="15dp" android:text="Beranda" android:layout_height="match_parent" android:gravity="center" android:textSize="25dp"></TextView>
+    </LinearLayout>
+    <HorizontalScrollView android:id="@+id/horizontalScrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+            <LinearLayout android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_width="match_parent" android:layout_marginTop="20dp">
+                <LinearLayout android:id="@+id/LinearLayout03" android:layout_height="match_parent" android:layout_width="225dp" android:orientation="vertical">
+                    <LinearLayout android:layout_height="200dp" android:layout_width="200dp" android:orientation="vertical" android:background="@drawable/wrapcontent" android:id="@+id/kproduk">
+                        <LinearLayout android:id="@+id/linearLayout3" android:layout_height="100dp" android:gravity="center" android:layout_width="match_parent" android:layout_marginTop="10dp">
+                            <TextView android:layout_height="100dp" android:layout_width="100dp" android:id="@+id/textView3" android:background="@drawable/bag"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:id="@+id/LinearLayout04" android:layout_height="100dp" android:gravity="center" android:layout_width="match_parent" android:orientation="vertical">
+                            <TextView android:layout_height="wrap_content" android:text="Kelola Produk" android:textColor="#222" android:layout_width="wrap_content" android:id="@+id/textView4" android:textSize="25dp"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearLayout5" android:layout_height="match_parent" android:gravity="right" android:layout_width="225dp" android:orientation="vertical">
+                    <LinearLayout android:layout_height="200dp" android:background="@drawable/wrapcontent" android:layout_width="200dp" android:orientation="vertical" android:id="@+id/pegawai">
+                        <LinearLayout android:id="@+id/LinearLayout06" android:layout_height="100dp" android:gravity="center" android:layout_width="match_parent" android:layout_marginTop="10dp">
+                            <TextView android:layout_height="100dp" android:id="@+id/TextView02" android:layout_marginTop="5dp" android:background="@drawable/pegawai" android:layout_width="85dp"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:id="@+id/LinearLayout05" android:layout_height="100dp" android:gravity="center" android:layout_width="match_parent" android:orientation="vertical">
+                            <TextView android:layout_height="wrap_content" android:textColor="#222" android:layout_width="wrap_content" android:id="@+id/TextView01" android:textSize="25dp" android:text="Pegawai"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+    	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentBottom="true" android:layout_margin="25dp" android:id="@+id/linear">
+            <Button android:layout_height="50dp" android:layout_margin="5dp" android:background="@drawable/login" android:layout_width="match_parent" android:textColor="#ffffff" android:textSize="30dp" android:id="@+id/totransaksi" android:text="Mulai Jualan!"></Button>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
